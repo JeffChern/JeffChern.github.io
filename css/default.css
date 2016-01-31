@@ -158,7 +158,7 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #247BA0; 
+   color: #D0104C; 
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
@@ -602,10 +602,10 @@ input[type="checkbox"] { display: inline; }
 
 .narrow .row { max-width: 980px; }
 
-.row .row { 
-   width: auto; 
-   max-width: none; 
-   margin: 0 -20px 20px; 
+.row .row {
+   width: auto;
+   max-width: none;
+   margin: 0 -20px 20px;
 }
 
 /* row clearing */
@@ -805,7 +805,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-
