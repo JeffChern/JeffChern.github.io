@@ -22,12 +22,22 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <!-- Script
     ================================================== -->
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <!-- Place in the <head>, after the three links -->
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider();
+      });
+    </script>
     <script src="js/modernizr.js"></script>
     <script src="js/analytics.js"></script>
     <!-- Favicons
     ================================================== -->
     <link rel="shortcut icon" href="images/j.ico">
     <link rel="bookmark" href="images/j.ico">
+    <!-- Place somewhere in the <head> of your document -->
 </head>
 
 <body>
@@ -257,7 +267,7 @@
     <!-- Contact Section
    <!-- Contact Section
    ================================================== -->
-    <section id="contact">
+     <section id="contact">
         <div class="row">
             <div class="seven columns contact-details push-4">
                 <b> EMAIL: jeff@iis.sinica.edu.tw</b>
